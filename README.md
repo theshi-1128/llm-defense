@@ -1,5 +1,5 @@
 # llm-defense
-This is a repository for fortifying the security of Large Language Models (LLMs) against jailbreak attacks. If you find this work useful in your own research, please feel free to leave a star⭐️.
+This is a repository for fortifying the security of Large Language Models (LLMs) against jailbreak attacks. If you find this work useful in your own research, please feel free to leave a star⭐️!
 
 ![Jailbreak Attacks](https://img.shields.io/badge/Jailbreak-Attacks-yellow.svg?style=plastic)
 ![Large Language Models](https://img.shields.io/badge/LargeLanguage-Models-green.svg?style=plastic)
