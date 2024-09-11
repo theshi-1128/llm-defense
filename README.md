@@ -49,10 +49,14 @@ The results of method `2` to mathod `7` are aggregated through a voting process.
 
 - `batch_size`: Number of prompts to process per batch, default is `1`.
 
+- `dataset_dir`: The path of your dataset containing prompts.
+
+- `output_dir`: The path of your output containing judgement and response.
+
   
 ## Quick Start
 
-Before you start, you should replace the necessary information in `llm/models.py`.
+Before you start, you should replace the 'path' of `full_model_dict` in`llm/models.py`.
 
 
 1. Clone this repository:
@@ -76,7 +80,9 @@ Before you start, you should replace the necessary information in `llm/models.py
      python main.py \
      -- target_model [TARGET MODEL] \
      -- target_model_cuda_id [CUDA ID] \
-     -- batch_size [BATCH SIZE]
+     -- batch_size [BATCH SIZE] \
+     -- dataset_dir [DATASET DIR] \
+     -- output_dir [OUTPUT DIR] \
      ```
 
     For example, to use `glm-4-9b-chat` as the target model on `CUDA:0` with batch_size of `4`, run
