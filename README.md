@@ -36,6 +36,9 @@ This repository shares the code of our work on defending LLMs against jailbreak 
   
 ## Quick Start
 
+Before you start, you should replace the necessary information in `llm/models.py`.
+
+
 1. Clone this repository:
 
    ```sh
