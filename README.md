@@ -22,7 +22,23 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 ## Overview
 
-This repository shares the code of our work on defending LLMs against jailbreak attacks. We achieve a comprehensive defense pipeline against jailbreak attacks to LLMs without affecting their helpfulness. Specifically, we have implemented `8` different defense methods that cover the entire process of LLMs' inference stage, and we have combined these methods using an expert voting approach, which can effectively increase the success rate of defenses and reduce cases of over-protection.
+This repository shares the code of our work on defending LLMs against jailbreak attacks. We achieve a comprehensive defense pipeline against jailbreak attacks to LLMs without affecting their helpfulness. Specifically, we have implemented the following `7` different defense methods that cover the entire process of LLMs' inference stage, and we have combined these methods using a voting approach, which can effectively increase the success rate of defenses and reduce cases of over-protection. 
+
+1. Keyword and String Detection: Detect harmful content based on predefined keywords and strings list. If harmful content is identified, classify it as `unsafe`. Otherwise, proceed to the next step.
+
+2. Prompt Judgement: Evaluate the input using predefined judgment prompts.
+
+3. Llama Guard 3: Use `Llama-Guard-3-8B` to evaluate the harmfulness of the input.
+
+4. Injection Attack Detection: Use a prompt injection classifier to evaluate the harmfulness of the input.
+
+5. Intention Analysis: Analyze the intention of the input to evaluate its harmfulness.
+
+6. Backtranslation: Perform backtranslation method to evaluate the harmfulness of the input.
+
+7. Zero-Shot Classifier: Use a zero-shot classifier to evaluate the harmfulness of the input.
+
+The results of method `2` to mathod `7` are aggregated through a voting process. If the number of `unsafe` votes exceeds a predefined threshold (default is `2`), the input is classified as `unsafe`; otherwise, it is considered `safe`.
 
 
 ## Argument Specification
