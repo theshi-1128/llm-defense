@@ -22,7 +22,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 ## Overview
 
-This repository shares the code of our work on defending LLMs against jailbreak attacks. 
+This repository shares the code of our work on defending LLMs against jailbreak attacks. We achieve a comprehensive defense pipeline against jailbreak attacks to LLMs without affecting their helpfulness.
 
 
 ## Argument Specification
