@@ -3,16 +3,20 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 full_model_dict = {
     "glm4": {
-        "path": "/home/model/glm-4-9b-chat",
+        "path": "replace with your model_path",
+        "help": "THUDM/glm-4-9b-chat"
     },
     "llama-guard": {
-        "path": "/home/model/llama_guard_3_8B",
+        "path": "replace with your model_path",
+        "help": "meta-llama/Llama-Guard-3-8B"
     },
     "deberta": {
-        "path": "/home/model/deberta-v3-base-prompt-injection-v2",
+        "path": "replace with your model_path",
+        "help": "protectai/deberta-v3-base-prompt-injection-v2"
     },
     "zero-shot": {
-        "path": "/home/model/deberta-v3-large-zeroshot-v2.0",
+        "path": "replace with your model_path",
+        "help": "MoritzLaurer/deberta-v3-large-zeroshot-v2.0"
     },
 }
 
