@@ -22,7 +22,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 ## Overview
 
-This repository shares the code of our work on defending LLMs against jailbreak attacks. We achieve a comprehensive defense pipeline against jailbreak attacks to LLMs without affecting their helpfulness.
+This repository shares the code of our work on defending LLMs against jailbreak attacks. We achieve a comprehensive defense pipeline against jailbreak attacks to LLMs without affecting their helpfulness. Specifically, we have implemented `8` different defense methods that cover the entire process of LLMs' inference stage, and we have combined these methods using an expert voting approach, which can effectively increase the success rate of defenses and reduce cases of over-protection.
 
 
 ## Argument Specification
