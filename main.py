@@ -12,7 +12,7 @@ def parse_args():
     parser.add_argument('--assist_model_name', type=str, default='deberta', help='Name of the assist model')
     parser.add_argument('--moderation_model_name', type=str, default='llama-guard', help='Name of the moderation model')
     parser.add_argument('--zero_shot_model_name', type=str, default='zero-shot', help='Name of the zero-shot model')
-    parser.add_argument('--target_model_cuda_id', type=str, default="cuda:3", help='CUDA device for the target model')
+    parser.add_argument('--target_model_cuda_id', type=str, default="cuda:0", help='CUDA device for the target model')
     parser.add_argument('--assist_model_cuda_id', type=str, default="cuda:1", help='CUDA device for the assist model')
     parser.add_argument('--moderation_model_cuda_id', type=str, default="cuda:4", help='CUDA device for the moderation model')
     parser.add_argument('--zero_shot_model_cuda_id', type=str, default="cuda:1", help='CUDA device for the zero-shot model')
