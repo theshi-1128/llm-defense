@@ -75,7 +75,7 @@ Before you start, you should replace the necessary information in `llm/models.py
      ```sh
      python main.py \
      -- target_model [TARGET MODEL] \
-     -- target_model_cuda_id [CUDA ID]
+     -- target_model_cuda_id [CUDA ID] \
      -- batch_size [BATCH SIZE]
      ```
 
@@ -84,7 +84,7 @@ Before you start, you should replace the necessary information in `llm/models.py
      ```sh
      python main.py \
      -- target_model glm4 \
-     -- target_model_cuda_id cuda:0
+     -- target_model_cuda_id cuda:0 \
      -- batch_size 4
      ```
      
