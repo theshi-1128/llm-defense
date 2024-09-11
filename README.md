@@ -67,4 +67,15 @@ This repository shares the code of our work on defending LLMs against jailbreak 
      -- target_model_cuda_id cuda:0
      -- batch_size 4
      ```
+     
+
+## Acknowledgement
+
+We have partly leveraged some code from [llm-jailbreaking-defense](https://github.com/YihanWang617/llm-jailbreaking-defense) and [llm-guard](https://github.com/protectai/llm-guard).
+
+We have also referred to code from official implementations of existing methods:
+* [GCG](https://github.com/llm-attacks/llm-attacks)
+* [ABJ](https://github.com/theshi-1128/ABJ-Attack)
+* [LLM-as-a-Judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+* [IA](https://github.com/alphadl/SafeLLM_with_IntentionAnalysis?tab=readme-ov-file)
 
