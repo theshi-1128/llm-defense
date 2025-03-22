@@ -1,7 +1,7 @@
 # llm-defense
 This is a repository for fortifying the security of Large Language Models (LLMs) against jailbreak attacks.
 
-This repository contains official implementation of our paper "[LLMs can be Dangerous Reasoners: Analyzing-based Jailbreak Attack on Large Language Models (https://arxiv.org/pdf/2407.16205v4)". 
+This repository contains official implementation of our paper "[LLMs can be Dangerous Reasoners: Analyzing-based Jailbreak Attack on Large Language Models (https://arxiv.org/pdf/2407.16205v4)]". 
 
 If you find this work useful in your own research, please feel free to leave a star⭐️!
 
