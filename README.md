@@ -108,4 +108,18 @@ We have also referred to code from official implementations of existing methods:
 * [ABJ](https://github.com/theshi-1128/ABJ-Attack)
 * [LLM-as-a-Judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
 * [IA](https://github.com/alphadl/SafeLLM_with_IntentionAnalysis?tab=readme-ov-file)
+ 
+
+## Citation
+
+If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
+
+```bibtex
+@article{lin2024figure,
+  title={LLMs can be Dangerous Reasoners: Analyzing-based Jailbreak Attack on Large Language Models},
+  author={Lin, Shi and Yang, Hongming and Lin, Dingyang and Li, Rongchang and Wang, Xun and Lin, Changting and Xing, Wenpeng and Han, Meng},
+  journal={arXiv preprint arXiv:2407.16205},
+  year={2024}
+}
+```
 
